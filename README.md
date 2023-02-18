@@ -1,1 +1,1 @@
-# OperaModMaker
+# Opera GX Mod Maker
