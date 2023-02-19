@@ -1,0 +1,179 @@
+{
+    "description": "The best mod to make a mod. Please leave everything on for you custom mods to work on opera.",
+    "developer":
+    {
+        "name": "Ztrolix"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "music/SpaceAmbience.mp3"
+            ],
+            "browser_sounds":
+            {
+                "TAB_CLOSE":
+                [
+                    "sounds/closetab.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sounds/newtab.mp3"
+                ],
+                "HOVER":
+                [
+                    "sounds/hover.mp3"
+                ],
+                "HOVER_UP":
+                [
+                    "sounds/hover.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sounds/newtab.mp3"
+                ],
+                "TAB_SLASH":
+                [
+                    "sounds/closetab.mp3"
+                ]
+            },
+            "page_styles":
+            [
+                {
+                    "matches":
+                    [
+                        "https://*.discord.com/*",
+                        "https://sites.google.com/view/mod-maker-opera/*"
+                    ],
+                    "css":
+                    [
+                        "css/main.theme.css",
+                        "css/changecolors.css"                    ]
+                }
+            ],
+            "wallpaper":
+            {
+                "dark":
+                {
+                    "image": "wallpaper/bg.webm",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#ffffff",
+                    "first_frame": "wallpaper/bg.webm"
+                },
+                "light":
+                {
+                    "image": "wallpaper/bg.webm",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#00ff00",
+                    "first_frame": "wallpaper/bg.webm"
+                }
+            },
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/tactile1.mp3",
+                    "sounds/tactile4.mp3",
+                    "sounds/tactile2.mp3",
+                    "sounds/tactile3.mp3"
+
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/tactileenter.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/tactilespace.mp3"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/tactilebackspace.mp3"
+                ]
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 270,
+                        "s": 98,
+                        "l": 60
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 270,
+                        "s": 100,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 270,
+                        "s": 100,
+                        "l": 52
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 270,
+                        "s": 100,
+                        "l": 88
+                    }
+                }
+                
+            },
+            "mod_making":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 270,
+                        "s": 98,
+                        "l": 60
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 270,
+                        "s": 100,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 270,
+                        "s": 100,
+                        "l": 52
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 270,
+                        "s": 100,
+                        "l": 88
+                    }
+                }
+            },
+            "shaders":
+            {
+                "8-Bit": "shaders/calm.txt",
+                "8-Bit TV": "shaders/intense.txt"
+            }
+        },
+        "schema_version": 1
+    },
+    "name": "ZtroMod",
+    "version": "1.3.0"
+}
